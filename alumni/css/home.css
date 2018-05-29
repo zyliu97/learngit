@@ -1,0 +1,145 @@
+#head{
+  width: 100%;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.border{
+  border-top: 0px solid;
+}
+.img{
+  width: 100%;
+  height:100%;
+}
+.nav-background{
+  background-color: #871b10;
+  border: 0px solid;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.nav-background li a{
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-background li a:hover{
+  background-color: #8b292a;
+}
+.nav-background li a:visited{
+  background-color: #871b10;
+}
+#topic-background{
+  background-color: #871b10;
+  padding: 10px;
+  min-height: 40px;
+}
+#topic-background p{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+#topic-background span{
+  padding: 0px;
+  color: white;
+}
+.topic,#text-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#topic-text{
+  background-color: #fefce1;
+  padding-top: 10px;
+}
+#img-margin{
+  margin:10px auto;
+}
+.text-style{
+  font-weight: 900;
+  margin-top: 10px;
+  color: black;
+}
+.state{
+  color: white;
+}
+.p-name{
+  text-align: center;
+  color: black;
+}
+.community-head{
+  height:100%;
+  width: 100%;
+  background-image: url("http://183.170.0.11/system/statics/css/xyh/images/bg3.png");
+  background-repeat:no-repeat;
+  padding: 10px;
+  padding-top: 20px;
+  min-height: 40px;
+}
+.community-head p{
+  font-size: 18px;
+  color: #61769f;
+  font-weight: 900;
+}
+.new{
+  border-top: 1px solid gray;
+  border-bottom: 3px solid gray;
+}
+.p-head{
+  color: black;
+  font-weight: 900;
+  font-size: 17px;
+  margin-top: 5px;
+}
+.p-text{
+  color: gray;
+}
+.name{
+  border: 3px solid gray;
+}
+.block-head{
+  height:100%;
+  width: 100%;
+  background-image: url("http://183.170.0.11/system/statics/css/xyh/images/wt.png");
+  padding: 10px;
+  padding-top: 20px;
+  min-height: 40px;
+  margin-bottom: 10px;
+}
+.block-head p{
+  font-size: 18px;
+  color: #61769f;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-left: -5px;
+}
+.link-head{
+  color: #871b10;
+  margin-right: 30px;
+  font-weight: 900;
+}
+.friend-link{
+  margin-top: 25px;
+}
+.link{
+  color: gray;
+  margin-right: 50px;
+}
+.footer{
+  background-image:url('http://183.170.0.11/system/statics/css/xyh/images/footer.png');
+  background-repeat:no-repeat;
+  background-size:100%;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media screen and (max-width:780px){
+  #txt-font{
+    display:none;
+    margin-top: 2%;
+  }
+}
+#txt-font{
+  margin-top:6%;
+}
