@@ -1,0 +1,80 @@
+body{
+    background-image: url("http://61.136.68.68:88/dwzwgk/images/bg.gif");
+}
+.all{
+    background-color: white;
+
+}
+.oneImg{
+    width: 100%;
+    height: 100%;
+
+}
+#topImg{
+    padding: 0;
+}
+.item{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E0E0E0 ;
+
+}
+.itme-head{
+    background: -webkit-linear-gradient(#F0FFFF,white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#F0FFFF,white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#F0FFFF,white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#F0FFFF,white); /* 标准的语法 */
+    border-bottom: 1px solid #E0E0E0 ;
+    padding-top: 5px;
+    height: 30px;
+}
+.itme-head p{
+    font-weight: 900;
+}
+.txtBlack{
+    color: black;
+}
+.padd15{
+    padding-left: 15px;
+}
+.bj{
+    padding-top: 4px;
+    border-bottom: 1px dashed gray ;
+}
+
+.bj a{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+    height: 16px;
+}
+#footer{
+    background-image: url("http://61.136.68.68:88/dwzwgk/images/bottom.jpg");
+    margin: 0 -15px;
+    padding-top: 5px;
+}
+#footer p{
+    text-align: center;
+    color: white;
+}
+.content{
+    border: double  #009900;
+}
+.time{
+    background-color:#CCCCCC;
+    color:#0075EB;
+    margin-left: 50px;
+}
+.text{
+    color: #000066;
+    font-size:10px;
+}
+
+.page{
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
